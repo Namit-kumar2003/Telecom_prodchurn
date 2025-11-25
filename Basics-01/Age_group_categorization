@@ -1,0 +1,10 @@
+Age = int(input("Provide the age of the citizen:"))
+
+if Age < 13:
+    print("The citizen is a child")
+elif Age < 20:
+    print("The citizen is a Teenager")
+elif Age < 60:
+    print("The citizen is a Adult.")
+else:
+    print("The citizen is a senior,")
