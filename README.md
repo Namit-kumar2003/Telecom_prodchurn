@@ -66,56 +66,12 @@ All four models were compared and the model with the best balance of recall & F1
 
 ---
 
-## 📊 Results Summary
+## 🔍 Exploratory Data Analysis Highlights
 
-*(Add your actual values here)*
-
-| Model               | Accuracy | Precision | Recall | F1 Score |
-| ------------------- | -------- | --------- | ------ | -------- |
-| Logistic Regression | -        | -         | -      | -        |
-| Decision Tree       | -        | -         | -      | -        |
-| Random Forest       | -        | -         | -      | -        |
-| SVM                 | -        | -         | -      | -        |
-
-> **Tip:** Random Forest and SVM usually perform well in churn problems, but recall is critical since detecting actual churners matters most.
-
----
-
-## 📁 Project Structure
-
-```
-Telecom-Churn/
-│
-├── data/                # Dataset (not included on GitHub if private)
-├── notebooks/           # Jupyter Notebooks for EDA & model building
-├── scripts/             # Python scripts for training & evaluation
-├── models/              # Saved model files (pickles)
-├── README.md            # Project documentation
-└── requirements.txt      # Dependencies
-```
-
----
-
-## ⚙️ Installation & Setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/telecom-churn.git
-cd telecom-churn
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the project
-
-```bash
-python churn_prediction.py
-```
+* Customer tenure is highly correlated with churn
+* High monthly charges often indicate churn risk
+* Customers using fiber-optic service appear more likely to churn
+* Contract type and payment method significantly influence churn behavior
 
 ---
 
@@ -130,7 +86,7 @@ python churn_prediction.py
 
 ## 🏆 Best Performing Model
 
-Your selected model: **(Add here e.g., Random Forest)**
+Your selected model: **Logistic Regression**
 
 Why?
 
